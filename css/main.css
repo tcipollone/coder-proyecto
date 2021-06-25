@@ -561,3 +561,9 @@ form div input {
     font-size: 1rem; }
   #fondo {
     background-position: 40%; } }
+
+@media (width: 540px) {
+  .nosotros {
+    margin-top: 100px; }
+  .nosotros-1 {
+    margin-bottom: 50px; } }

@@ -25,7 +25,7 @@ ul a:hover {
 
     background-color: lightgray;
     text-decoration: none;
-    
+
 }
 
 /* Iconos footer alineados */
@@ -633,6 +633,7 @@ form {
 /* ------- MEDIA QUERIES ------- */
 
 
+
 /* Media Queries hasta 576px */
 @media (max-width: 576px) {
 
@@ -998,3 +999,17 @@ form {
     }
 
 }
+
+@media (width: 540px) {
+
+    .nosotros {
+
+        margin-top: 100px;
+    }
+
+    .nosotros-1 {
+
+        margin-bottom: 50px;
+    }
+}
+
