@@ -1,0 +1,55 @@
+/* Estilos del footer */
+.footer-nuevo {
+
+	background-color: lightgrey;
+	color: #224797;
+}
+
+.texto-footer{
+
+	text-align: center;
+	font-size: 1.2rem;
+	color: rgb(0, 0, 0);
+}
+
+
+.titulo {
+
+	color: #224797;
+	font-size: 1.4rem;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.lineapie {
+
+	text-align: center;
+	color: #ffffff;
+	font-size: 1.2rem;
+    background-color: #2b2b2b;
+}
+
+.texto-footer {
+
+	a:hover {
+
+		text-decoration: underline;
+	}
+}
+
+.texto-footer {
+
+	a {
+
+		color: black;
+		font-weight: bold;
+	}
+}
+
+/* Iconos del footer */
+i {
+
+    font-size: 30px;
+	padding: 15px;
+    color: #224797;
+}

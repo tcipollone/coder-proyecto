@@ -1,0 +1,999 @@
+@import "footer";
+@import "404";
+
+/* Valores para todo el html */
+* {
+
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Todos los h1 iguales */
+h1 {
+
+    color: #224797;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+/* Enlaces navbar sin subrayado */
+ul a:hover {
+
+    background-color: lightgray;
+    text-decoration: none;
+}
+
+/* Iconos footer alineados */
+
+.col {
+
+    ul {
+
+        padding: 0;
+    }
+}
+
+
+/* Enlaces sin subrayado */
+a {
+
+    text-decoration: none;
+}
+
+
+/* Span iguales productos*/
+.contenedor {
+    
+    div {
+        
+        span {
+
+            font-size: 1.2rem;
+            color: #224797;
+            font-weight: bold;
+        }
+    }
+}
+
+/* Inputs en Mi Cuenta */
+p {
+
+    input {
+
+        width: 150%;
+        height: 30px;
+    }
+}
+
+div {
+
+    input {
+
+        font-size: 20px;
+        border: 1px solid black;
+        border-radius: 8px;
+        font-weight: bold;
+        padding: 15px 0 15px 7px;
+    }
+}
+
+
+/* FlexBox en Inicio */
+.fila {
+
+    margin-bottom: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    justify-content: space-evenly;
+    
+}
+
+
+
+/* Flex de Productos destacados */
+.fila {
+    
+    img {
+
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
+.fila {
+    
+    div {
+
+        border: 2px solid black;
+        margin-top: 20px;
+        width: 400px;
+    }
+}
+
+.fila {
+    
+    div {
+        
+        p {
+
+            font-size: 1.25rem;
+            margin: 0 10px 20px 10px;
+            text-align: center;
+        }
+    }
+
+}
+
+/* Transformacion Productos Destacados en Inicio*/
+
+.fila {
+    
+    div:hover {
+
+        transform: scale(1.05);
+        box-shadow: 10px 10px 25px #5e5e5e, -10px -10px 15px #ffffff;
+        transition-duration: 0.5s;
+    }
+
+}
+
+/* Precios productos Index */
+.fila {
+    
+    div {
+        
+        span {
+
+            font-size: 1.25rem;
+            display: flex;
+            flex-flow: column wrap;
+            text-align: center;
+            color: #224797;
+            margin: 30px 0 30px 0;
+            font-weight: bold;
+        }
+    }
+}
+
+/* FlexBox en Mi Cuenta */
+.cuentaFlex {
+
+    height: 700px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
+
+.cuentaFlex {
+    
+    h2 {
+
+        font-weight: bold;
+    }
+
+    label {
+
+        font-weight: 500;
+    }
+
+}
+
+
+.fondoCuenta {
+
+    background-image: url("../css/challenger.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Clase para descripcion producto */
+.producto {
+
+    text-decoration: underline grey;
+    font-size: 1.25rem;
+    color: grey;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+
+/* Clase para subtitulo */
+.subtituloDestacados {
+
+    color: #224797;
+    text-align: left;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-weight: bold;
+    padding: 30px;
+}
+
+
+/* Grid productos */
+#productos {
+    
+    .contenedor {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2.5rem;
+        row-gap: 1rem;
+        margin-top: 40px;
+    }
+}
+
+.contenedor {
+
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.contenedor {
+
+    div:hover {
+
+        transform: scale(1.05);
+        box-shadow: 10px 10px 25px #5e5e5e, -10px -10px 15px #ffffff;
+        transition-duration: 0.5s;
+    }
+}
+
+.contenedor {
+
+    div {
+
+        margin: 1rem 0;
+        padding: 2rem;
+        border: solid 1px black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.1rem;
+
+            h3 {
+
+                padding: 15px;
+                font-weight: bold;
+                text-align: center;
+            }
+    }
+
+
+}
+
+.contenedor {
+    
+    div:hover {
+
+        transform: scale(1.05);
+        box-shadow: 10px 10px 25px #5e5e5e, -10px -10px 15px #ffffff;
+    }
+}
+
+/* Botones de Mi Cuenta */
+
+.botones {
+
+    padding: 12px;
+    font-weight: bold;
+}
+
+.botones:hover {
+
+    background-color: #224797;
+    transform: scale(1.2);
+    color: white;
+}
+
+
+form {
+    
+    div {
+
+        input {
+
+            margin-top: 20px;
+        }
+    } 
+}
+
+/* Info de Sobre Nosotros */
+.tarjeta-nosotros {
+
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta-nosotros__info {
+
+    position: relative;
+    max-width: 1300px;
+    margin-top: 30px;
+    padding: 15px;
+    display: flex;
+}
+
+.tarjeta-nosotros__info--img {
+
+    max-width: 600px;
+    flex: 0 0 600px;
+}
+
+.tarjeta-nosotros__info--img {
+    
+    img {
+
+        max-width: 100%;
+    }
+}
+
+.contenido {
+
+    margin: 0px 50px 60px 50px;
+    font-size: 1.1rem;
+}
+
+
+/* Navbar Inicio */
+.navbar {
+
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.nav-item {
+
+    padding: 20px;
+}
+
+
+/* Breadcrumb */
+
+.breadcrumb {
+
+    font-size: 1.4rem;
+    margin: 0 0 20px 10%;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.breadcrumb-item.active {
+
+    color: #000000;
+}
+
+/* Navegacion paginas */
+.pagination {
+
+    font-size: 1.25rem;
+    margin-top: 35px;
+}
+
+
+/* Formulario */
+
+.form-holder {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-holder {
+    
+    .form-content {
+
+        position: relative;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 60px;
+    }
+}
+
+.form-content {
+    
+    .form-items {
+    
+        border: 3px solid rgb(255, 255, 255);
+        padding: 40px;
+        display: inline-block;
+        width: 100%;
+        border-radius: 10px;
+        text-align: left;
+    }
+}
+
+.form-content {
+    
+    h2 {
+
+        color: rgb(255, 255, 255);
+        text-align: left;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+}
+
+
+.form-content {
+    
+    h2 {
+        
+        .form-title {
+
+            margin-bottom: 30px;
+        }
+
+    }
+
+    p {
+
+        color: rgb(255, 255, 255);
+        text-align: left;
+        font-size: 2rem;
+        font-weight: bold;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+
+    input {
+
+        padding: 9px 20px;
+        text-align: left;
+        border-radius: 6px;
+        background-color: #fff;
+        font-size: 1.2rem;
+        font-weight: 300;
+        color: #ffffff;
+        transition: all 0.3s ease;
+        margin-top: 16px;
+    }
+}
+
+.col-md-12 {
+
+    label {
+
+        font-size: 1.2rem;
+        color: white;
+        font-weight: bold;
+    }
+}
+
+.form-select {
+
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+
+    background-color: #6C757D;
+    box-shadow: none;
+    font-size: 1.2rem;
+}
+
+.btn-primary:hover {
+
+    background-color: #495056;
+}
+
+.form-content {
+
+    textarea {
+
+        position: static;
+        width: 100%;
+        padding: 8px 20px;
+        border-radius: 6px;
+        text-align: left;
+        background-color: #fff;
+        font-size: 1rem;
+        font-weight: 300;
+        color: #000000;
+        resize: none;
+        height: 120px;
+        margin-bottom: 14px;
+    }
+}
+
+.comentario {
+
+    font-size: 1.25rem;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Estilos Contacto */
+#fondo {
+
+    background-image: url("../css/jeep-contacto.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+
+    h1 {
+
+        color: rgb(0, 0, 0);
+    }
+
+}
+
+
+/* Parrafos Sobre Nosotros */
+.contenido {
+
+    h2 {
+
+        font-weight: bold;
+    }
+
+    h3 {
+
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    span {
+
+        color: #224797;
+    }
+}
+
+.carousel-caption {
+
+    h1 {
+
+        color: white;
+        font-size: 4rem;
+        position: absolute;
+        bottom: 40%;
+        left: 60%;
+    }
+}
+
+
+.carousel-inner {
+
+    h2 {
+
+        color: white;
+        font-weight: bold;
+        font-size: 4rem;
+        position: absolute;
+        bottom: 200px;
+        right: 40%;
+    }
+}
+
+
+.fondoCuenta {
+
+    h1 {
+
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+    }
+}
+
+.contenedor {
+    
+    div {
+        
+        .btn {
+
+            margin-top: 20px;
+        }
+    }
+
+}
+
+.fila {
+    
+    div {
+        
+        .btn {
+
+            position: relative;
+            left: 37%;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+
+
+
+/* ------- MEDIA QUERIES ------- */
+
+
+/* Media Queries hasta 576px */
+@media (max-width: 576px) {
+
+    .subtituloDestacados {
+
+        color: #224797;
+        text-align: left;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .navbar {
+    
+        font-weight: bold;
+        font-size: 22px;
+        background-color: rgb(209, 209, 209);
+        
+    }
+
+    .container-fluid {
+
+        background-color: white;
+    }
+
+    .nav-item a:hover {
+
+        background-color: lightgray;
+    }
+
+    .fondoCuenta {
+
+        height: 1000px;
+    }
+
+    .cuentaFlex {
+
+        width: 200px;
+    }
+
+    #productos .contenedor {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 2.5rem;
+        row-gap: 1rem;
+        margin-top: 40px;
+    }
+
+    .tarjeta-nosotros__info {
+
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .tarjeta-nosotros__info--img {
+        max-width: 600px;
+        flex: 0 0 300px;
+    }
+    
+}
+
+/* Media Queries hasta 992px */
+@media (max-width: 992px) {
+
+    .subtituloDestacados {
+
+        color: #224797;
+        text-align: left;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    #productos .contenedor {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 2.5rem;
+        row-gap: 1rem;
+        margin-top: 40px;
+    }
+
+}
+
+/* Media Queries 768px */
+@media (width: 768px) {
+
+    .carousel-caption {
+
+        h1 {
+    
+            color: white;
+            font-size: 2rem;
+            position: absolute;
+            bottom: 50%;
+            
+        }
+
+    }
+
+    .carousel-inner {
+
+        h2 {
+    
+            color: white;
+            font-weight: bold;
+            font-size: 2rem;
+            position: absolute;
+            bottom: 70px;
+        }
+    }
+
+    .tarjeta-nosotros__info--img {
+
+        max-width: 400px;
+        flex: 0 0 600px;
+
+        img {
+
+            max-width: 100%;
+        }
+    }
+
+    .fondoCuenta {
+
+        p {
+            input {
+
+                width: 250px;
+            }
+        
+        }
+    }
+
+}
+
+@media (width: 1024px) {
+    
+    #productos {
+
+        .contenedor {
+
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .carousel-caption {
+
+        h1 {
+    
+            color: white;
+            font-size: 3rem;
+            position: absolute;
+            bottom: 10%;
+        }
+
+    }
+
+    .carousel-inner {
+
+        h2 {
+    
+            color: white;
+            font-weight: bold;
+            font-size: 3rem;
+            position: absolute;
+            bottom: 70px;
+        }
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    .navbar-brand {
+
+        img {
+
+            width: 125px;
+        }
+    }
+
+    .fila {
+
+        div {
+
+            width: 350px;
+
+            img {
+
+                text-align: center;
+            }
+        }
+    }
+
+    .breadcrumb {
+
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    h1 {
+
+        font-size: 2rem;
+    }
+
+    .contenido {
+
+        margin: 0;
+
+            h2 {
+
+                text-align: center;
+                padding: 20px;
+            }
+    }
+
+    .tarjeta-nosotros__info {
+
+        margin-top: 10px;
+    }
+
+    .tarjeta-nosotros__info--img {
+
+        max-height: 250px;
+    }
+
+    .contenedor {
+
+        div {
+
+            max-width: 325px;
+            margin: auto;
+        }
+    }
+
+    .fondoCuenta {
+
+        background-image: url(../img/dodge-hellcat-wallpaper.jpg);
+        width: 100%;
+        padding: 30px;
+
+        h1 {
+
+            margin-top: 20px;
+        }
+
+        h2 {
+
+            font-size: 1.75rem;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        label {
+
+            font-weight: 500;
+            font-size: 1.2rem;
+        }
+
+        div {
+
+            margin-bottom: 19px;
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-top: 20px;
+        }
+
+        p {
+
+            margin-top: 10px;
+        }
+
+        .botones {
+
+            margin-top: 10px;
+        }
+
+        .breadcrumb {
+
+            padding: 0;
+        }
+
+    }
+
+    .form-holder {
+
+        padding: 0px;
+
+        h2 {
+
+            font-size: 2rem;
+        }
+    }
+
+    .form-holder {
+
+        .form-content {
+
+            padding: 20px;
+            
+        }
+    }
+
+    .form-items {
+
+        h2 {
+
+            font-size: 1.5rem;
+        }
+
+        p {
+
+            font-size: 1.1rem;
+            margin: 0;
+        }
+
+        input {
+
+            font-size: 1rem;
+            padding: 10px;
+        }
+
+        select {
+
+            font-size: 1rem;
+        }
+
+        .col-md-12 {
+            
+            label {
+
+                font-size: 1rem;
+                color: white;
+                font-weight: bold;
+            }
+    
+        }
+
+        .comentario {
+
+            font-size: 1rem;
+            margin-top: 10px;
+
+        }
+
+    }
+
+    .form-content {
+
+        textarea {
+
+            padding: 5px;
+            height: 80px;
+            font-size: 1rem;
+            
+        }
+    }
+
+    #fondo {
+
+        background-position: 40%;
+    }
+
+}
